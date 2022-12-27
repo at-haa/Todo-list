@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/7634766a4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="todo-list">
+      <h1>To Do list</h1>
+      <div class="todo-list__add">
+        <input class="todo-list__input" type="text" placeholder="Name..." />
+        <button class="btn add">Add Item</button>
+      </div>
+
+      <ul class="todo-list__tasks">
+        <li class="task">Read the book<span><i class="fa fa-check check"></i><i class="fa fa-trash-o delete"></span></i>
+        <li class="task">Do the homework<span><i class="fa fa-check check"></i><i class="fa fa-trash-o delete"></span></i>
+      </ul>
+      <button class="btn clear">Clear Items</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
